@@ -334,7 +334,14 @@ h1 {
   font-size: 13px;
   letter-spacing: .08em;
 }
-
+.nav-logo {
+  width: 42px !important;
+  height: 42px !important;
+  max-width: 42px !important;
+  max-height: 42px !important;
+  object-fit: contain;
+  display: block;
+}
 @media (max-width: 880px) {
   .nav {
     flex-direction: column;
@@ -364,4 +371,6 @@ h1 {
   .fact-grid {
     grid-template-columns: 1fr;
   }
+ 
+
 }
